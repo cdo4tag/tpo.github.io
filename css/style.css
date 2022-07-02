@@ -1,0 +1,658 @@
+/* SELECTOR UNIVERSAL */
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+/* SELECTOR POR ETIQUETA */
+h1{/*google font*/
+    font-family: 'Finlandica', sans-serif;
+}
+
+h2{
+    color: rgb(128, 118, 43);
+    /*font-size: 150px;*/
+    font-size:20px;
+    /*google font*/
+    font-family: 'Roboto', sans-serif;
+}
+
+h3{
+    color: #ffffff;
+    font-size:15px;
+    font-weight: bold;
+    /*google font*/
+    font-family: 'Roboto', sans-serif;
+}
+
+p{
+    background-color: none;
+    font-size:10px;
+    /*google font*/
+    font-family: 'Roboto', sans-serif;
+}
+
+/* NAV */
+#idNavGrad{
+    background-color: #539750bc; /* For browsers that do not support gradients*/
+    background-image: linear-gradient(#bbe825aa, #67c03b97);
+    /*border-bottom-right-radius: 25%;*/
+    /*border-radius: 25px;*/
+}
+
+.cLogo img{
+    position:absolute;
+    padding-left:15px;
+    margin-top: 17px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    border-radius: 25px;
+}
+.cNav {
+    width:100%;
+    height:auto;
+    overflow:auto;
+    list-style-type: none;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+}
+
+.cNav ul{
+    padding:0;
+    margin: 0 0 0 50px;
+    list-style:none;
+}
+
+.cNav li {
+    display: inline-block;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 20px;
+}
+
+.cNav a{
+    width:auto;
+    display: block;
+    padding: 10px 15px;
+    text-align: center;
+    border-radius: 25px;
+}
+
+.cNav a:hover{
+    background:#75460da4;
+    transition:1s;
+    text-transform:capitalize;
+}
+
+/* MAIN */
+
+/*BANNER*/
+
+#idBanner{
+    width: 100%;
+    height: 150px;
+    background-color: #6b4526ac;
+    background-image: url('../assets/img/banner.png');
+    background-position: center;
+    background-size: cover;
+    /*border-radius: 25px;*/
+}
+
+/*#ResBanner p{
+    color: #000;
+    text-align: center;
+    position: relative;
+    top:50%;
+    font-size: 8vw;
+}*/
+
+#ResText{
+    width: 100%;
+    text-align:left;
+    padding: 20px;
+    background-color: #744f31ac;
+    /*border-radius: 25px;*/
+}
+
+#ResText p{
+    color: #000;
+    text-align: center;
+    position: relative;
+    font-size: 8vw;
+}
+
+.ResTextFormats h1{
+    font-size:18px;
+}
+
+/* COLUMNA UNICA */
+#idDef{
+    width: 100%;
+    padding: 20px;
+    background-color: #744f31ac;
+    /*text-align:left;*/
+}
+.cMain{
+    flex: 100%;
+    background-color: white;
+    padding: 40px;
+    border-radius: 25px;
+}
+
+.cFila {  
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* cGrid */
+.cGrid{
+    display: grid;
+    /*grid-template-columns: 60% 40%;*/
+    width: 80%;
+    margin: 0 auto;
+    background-color:rgba(29, 20, 20, 0.177);
+    padding: 20px;
+
+    /* TAUPE HEX #483C32 */
+    border: 4px solid #483C32;
+    border-radius: 4px;
+}
+
+/* cGridC1 */
+.cGridC1{
+    /*width: 150px;*/
+    height:fit-content;
+    /*border: 4px solid rgba(187, 239, 164, 0.851);
+    background-color: lightgreen;*/
+    background-color: rgba(192, 202, 192, 0.559);
+    border-left-style: solid;
+    border-color: #53d61a;
+    border-radius: 4px;
+}
+.cGridC1 h1{
+    color: rgb(128, 118, 43);
+    font-size:45px;
+    padding-left: 20px;
+    padding-bottom: 5px;
+}
+
+.cGridC1 h2{
+    /*color: #17af21;*/
+    color: #ffffff;
+    background-color: #75460da4;
+    font-size:20px;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.cGridC1 p{
+    background-color: none;
+    font-size:20px;
+    padding-left: 20px;
+    padding-bottom: 1px;
+}
+.cGridC1 ul{
+    background-color: none;
+    font-size:15px;
+    padding-left: 20px;
+    padding-bottom: 5px;
+    /*google font*/
+    font-family: 'Poppins', sans-serif;
+}
+
+#cGridC1Ul{
+    margin: 0;
+    padding-left: 35px;
+}
+
+/* cGridC2 */
+.cGridC2Form{
+    /* TAUPE HEX #483C32 */
+    background-color: #483C32;
+    /*box-shadow: #00ff22;*/
+    overflow: hidden;
+    border-radius: 4px;
+}
+.cGridC2{
+    /*width: 150px;*/
+    height:fit-content;
+    /*border: 4px solid rgba(187, 239, 164, 0.851);*/
+    /*background-color: rgb(71, 220, 71);*/
+    margin: 15px;
+}
+.cGridC2 h3{
+    color: #ffffff;
+    font-size:15px;
+    font-weight: bold;
+     /*google font*/
+    font-family: 'Roboto', sans-serif;
+}
+.cGridC2 img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+.cGridC2 iframe{
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+.cGridC2Label{
+    /*display: block;*/
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 25px;
+    /*google font*/
+}
+.cGridC2InputDiv{
+    /*background-color: #4C3D45;*/
+    padding: 1px 0px 1px 0px;
+}
+.cGridC2Input{
+    /*display: block;*/
+    /*max-width: 100%;*/
+    /*HEX #A3BD90 - #EF863C*/
+    /*HEX #499312 - #EF863C*/
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid #A3BD90;
+    border-radius: 4px;
+    /*google font*/
+    font-family: 'Roboto', sans-serif;
+    padding: 3px 3px;
+}
+.cGridC2Input:focus{
+    outline: 0;
+    border-color:#EF863C;
+    box-shadow: 0px 0px 10px #EF863C;
+}
+.cGridC2InputDiv.success input{
+    border-color:#3CEF48;
+    box-shadow: 0px 0px 10px #3CEF48;
+}
+.cGridC2InputDiv.error input{
+    border-color:#f32d1a;
+    box-shadow: 0px 0px 10px #f32d1a;
+}
+/*
+.cGridC2InputDiv i{
+    visibility: hidden;
+    position: absolute;
+    top: 10px;
+    right: 2px;
+}*/
+.cGridC2InputDiv.success i-fa-exclamation{
+    border-color:#3CEF48;
+    box-shadow: 0px 0px 10px #3CEF48;
+}
+.cGridC2InputDiv small{
+    color:rgb(255, 20, 20);
+    font-size:15px;
+    position: absolute;
+    padding-bottom: 1px;
+    /*google font*/
+    font-family: 'Roboto', sans-serif;
+    visibility: hidden;
+}
+.cGridC2InputDiv.error small{
+    visibility: visible;
+}
+.cGridC2 textarea{
+    width: 75%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    /*google font*/
+    font-family: 'Roboto', sans-serif;
+}
+.cGridC2 textarea:focus{
+    outline: 0;
+    border-color:#EF863C;
+    box-shadow: 0px 0px 10px #EF863C;
+}
+.cGridC2InputDiv.success textarea{
+    border-color:#3CEF48;
+    box-shadow: 0px 0px 10px #3CEF48;
+}
+.cGridC2InputDiv.error textarea{
+    border-color:#f32d1a;
+    box-shadow: 0px 0px 10px #f32d1a;
+}
+.cGridC2button{
+    padding: 1px 4px 1px 4px;
+    border-radius: 4px;
+    /*google font*/
+    font-family: 'Roboto', sans-serif;
+}
+
+/* FOOTER */
+.cFoot{
+    padding: 5px;
+    color:#ffffff;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    background: rgba(88, 72, 49, 0.802);
+    /*google font*/
+    font-family: 'Roboto', sans-serif;
+}
+.cGrid2{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 100%;
+    margin: 0 auto;
+    background-color:none;
+    padding: 20px;
+    /*border: 1px solid whitesmoke;*/
+    border-radius: 25px;
+}
+#GLG{
+    color:#53d61a;
+    font-size: 15px;
+    font-weight: bold;
+    /*google font*/
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+@media screen and (max-width:1920px) {
+    .cLogo img{
+        position:absolute;
+        padding-left:15px;
+        margin-top: 17px;
+        margin-bottom: 10px;
+        margin-left: 10px;
+        border-radius: 25px;
+    }
+    .cNav li {
+        display: inline-block;
+        font-size: 15px;
+        padding: 20px;
+    }
+    #ResBanner{
+        width: 100%;
+        height: 200px;
+        background-color: #6c6c6cac;
+        background-image: url('../assets/img/banner_1920x1080.png');
+        background-position: center;
+        background-size: cover;
+    }
+    #idBanner{
+        height: 120px;
+    }
+    /*
+    .ResTextFormats h1{
+        font-size:18px;
+    }*/
+    .cGridC1 h1{
+        font-size:40px;
+    }
+    .cGridC1 h2{
+        font-size:25px;
+    }
+    .cGridC1 p{
+        font-size:20px;
+    }
+    .cGridC1 li{
+        font-size:18px;
+    }
+    #idDef{
+        padding: 20px;
+    }
+    .cGrid{
+        width: 100%;
+    }
+    .cGridC2InputDiv small{
+        font-size:12px;
+    }
+    .cFoot{
+        font-size: 12px;
+    }
+    .cFoot span{
+        font-size: 12px;
+    }
+    #GLG{
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width:1280px) {  
+    .cLogo img{
+        position:absolute;
+        padding-left:15px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: 10px;
+        border-radius: 25px;
+    }
+    .cNav li {
+        display: inline-block;
+        font-size: 15px;
+        padding: 17px;
+    }
+    #ResBanner{
+        width: 100%;
+        height: 150px;
+        background-color: #6c6c6cac;
+        background-image: url('../assets/img/banner_1280x720.png');
+        background-position: center;
+        background-size: cover;
+    }
+    #idBanner{
+        height: 90px;
+    }
+    /*
+    #banner p{
+        font-size: 1px;
+    }
+    .ResTextFormats h1{
+        font-size:15px;
+    }*/
+    .cGridC1 h1{
+        font-size:35px;
+    }
+    .cGridC1 h2{
+        font-size:20px;
+    }
+    .cGridC1 p{
+        font-size:18px;
+    }
+    .cGridC1 li{
+        font-size:15px;
+    }
+    #idDef{
+        padding: 10px;
+    }
+    .cGrid{
+        width: 100%;
+    }
+    .cGridC2InputDiv small{
+        font-size:12px;
+    }
+    .cFoot{
+        font-size: 12px;
+    }
+    .cFoot span{
+        font-size: 12px;
+    }
+    #GLG{
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width:800px){
+    .cLogo img{
+        position:absolute;
+        padding-left:15px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        margin-left: 10px;
+        border-radius: 25px;
+        /*height:fit-content;*/
+    }
+    .cNav li {
+        display: inline-block;
+        font-size: 12px;
+        padding: 12px;
+    }
+    .cNav a:hover{
+        font-size: 12px;
+    }
+    #ResBanner{
+        width: 100%;
+        height: 125px;
+        background-color: #6c6c6cac;
+        background-image: url('../assets/img/banner_800x600.png');
+        background-position: center;
+        background-size: cover;
+    }
+    #idBanner{
+        height: 65px;
+    }
+    /*
+    .ResTextFormats h1{
+        font-size:12px;
+    }*/
+    .cGridC1 h1{
+        font-size:35px;
+    }
+    .cGridC1 h2{
+        font-size:20px;
+    }
+    .cGridC1 p{
+        font-size:18px;
+    }
+    .cGridC1 li{
+        font-size:15px;
+    }
+    #idDef{
+        padding: 5px;
+    }
+    .cGrid{
+        width: 100%;
+    }
+    .cGridC2InputDiv small{
+        font-size:10px;
+    }
+    .cFoot{
+        font-size: 10px;
+    }
+    .cFoot span{
+        font-size: 10px;
+    }
+    #GLG{
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width:500px){
+    .cLogo img{
+        height:5%;
+        padding-left:12px;
+        padding-right:10px;
+        padding-top: 0px;
+        padding-bottom: 10px;
+        margin-left: 10px;
+        border-radius: 25px;
+    }
+    .cNav li{
+        float:left;
+        font-size: 8px;
+        display: block;
+        margin-left: 10px;
+    }
+    .cNav a{
+        padding: 1px 5px;
+        text-align: center;
+        border-radius: 25px;
+    }
+    .cNav a:hover{
+        font-size: 8px;
+    }
+    #ResBanner{
+        width: 100%;
+        height: 100px;
+        background-color: #6c6c6cac;
+        background-image: url('../assets/img/banner_500x300.png');
+        background-position: center;
+        background-size: cover;
+    }
+    #idBanner{
+        height: 50px;
+    }
+    /*
+    .ResTextFormats h1{
+        font-size:12px;
+    }*/
+    .cGridC1 h1{
+        font-size:25px;
+    }
+    .cGridC1 h2{
+        font-size:18px;
+    }
+    .cGridC1 p{
+        font-size:14px;
+    }
+    .cGridC1 li{
+        font-size:12px;
+    }
+    #idDef{
+        padding: 2px;
+    }
+    .cGrid{
+        width: 100%;
+    }
+    .cGridC2InputDiv small{
+        font-size:10px;
+    }
+    .cFoot{
+        font-size: 8px;
+    }
+    .cFoot span{
+        font-size: 8px;
+    }
+    #GLG{
+        font-size: 8px;
+    }
+}
+
+/* SELECTORES AVANZADOS */
+
+div p{
+    font-size: 20px;
+}
+
+p, a {
+    color:rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+/* HIJOS DIRECTOS */
+div > #p1 > b{
+    font-size: 50px;
+} 
+
+div ~ p {
+    color:#02013b;
+    font-size: 20px;
+}
+
+a:hover{
+    color:#ffffff;
+    font-size: 15px;
+}
+
+a:active{
+    color:#0d3b01;
+}

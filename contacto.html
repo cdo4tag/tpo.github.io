@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./assets/img/green.ico" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/bfa14a5bbe.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Finlandica:ital,wght@1,600&display=swap" rel="stylesheet">
+    <title>Green Leaf Gardens</title><link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div id="idNavGrad">
+        <header>
+            <div class="cLogo"><a href="#"><img src="./assets/img/ico_4c.png"></a></div>
+            <nav class="cNav">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="servicios.html">Servicios</a></li>
+                    <li><a href="galeria.html">Galeria</a></li> 
+                    <li><a href="contacto.html">Contacto</a></li> 
+                </ul>
+            </nav>
+        </header>
+    </div>
+    <main>
+        <section id="idBanner">
+        </section>
+        <section id="idDef">
+            <div class="cGrid">
+                <div class="cGridC1">
+                    <h1>Green Leaf Gardens</h1>
+                    <h2>Contacto <i class="fa-solid fa-envelope"></i></h2>
+                    <br>
+                </div>
+                <form action="" method="GET" class="cGridC2Form" id="form">
+                    <div class="cGridC2">
+                        <label for="nombre" class="cGridC2Label"><h3>Nombre Completo</h3></label>
+                        <div class="cGridC2InputDiv">
+                            <input type="text" name="nombre" class="cGridC2Input" id="nombre" placeholder="Ingrese su Nombre Completo" size="25" maxlength="25">
+                            <br>
+                            <small></small>
+                        </div>
+                    </div>
+                    <div class="cGridC2">
+                        <label for="email" class="cGridC2Label"><h3>e-mail</h3></label>
+                        <div class="cGridC2InputDiv">
+                            <input type="text" name="email" class="cGridC2Input" id="email" placeholder="Ingrese su e-mail" size="25" maxlength="25">
+                            <br>
+                            <small></small>
+                        </div>
+                    </div>
+                    <div class="cGridC2">
+                        <label for="descripcion" class="cGridC2Label"><h3>Descripcion</h3></label>
+                        <div class="cGridC2InputDiv">
+                            <textarea name="descripcion" class="cGridC2Input" id="descripcion" placeholder="Ingrese su mensaje" cols="30" rows="10"></textarea>
+                            <br>
+                            <small></small>
+                        </div>
+                    </div>
+                    <div class="cGridC2">
+                        <button type="submit" class="cGridC2button">Enviar</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+    <script src="./js/contacto.js"></script>
+    <footer class="cFoot">
+        Todos los derechos reservados a <span id="GLG">Green Leaf Gardens</span> - MB
+    </footer>
+</body>
+</html>
